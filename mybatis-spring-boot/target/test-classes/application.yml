@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: mb
+  datasource:
+    name: jdbc-springboot
+    url: jdbc:mysql://127.0.0.1:3306/jdbc-springboot?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowMultiQueries=true&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true
+    username: root
+    password: admin
+    driver-class-name: com.mysql.jdbc.Driver
